@@ -1,0 +1,37 @@
+# Maven and Java build output
+target/
+*.class
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+!/.vscode/extensions.json
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.secret
+*.secrets
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Operating system files
+.DS_Store
+Thumbs.db
